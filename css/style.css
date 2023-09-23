@@ -1,3 +1,7 @@
+:root {
+    --primary-color: #5046E5;
+}
+
 body {
     background-color: #fff;
     font-family: arial;
@@ -17,10 +21,10 @@ nav {
 }
 
 .circle {
-    background-color: rgb(133, 133, 223);
-    width: 30px;
-    height: 30px;
-    border-radius: 15px;
+    background-color: var(--primary-color);
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
     margin: 20px;
 }
 
@@ -35,7 +39,7 @@ nav {
 }
 
 .navbar li {
-    padding: 15px;
+    padding: 20px;
     color: black;
     font-weight: bold;
 }
@@ -55,4 +59,71 @@ nav {
     border: none;
     font-weight: bold;
     font-size: 16px;
+}
+
+/* Hero */
+.hero-container {
+    margin: 100px 100px 65px 100px;
+    text-align: center;
+}
+
+.main-head {
+    font-size: 48px;
+    margin: 35px auto;
+}
+
+.hero-container p {
+    font-size: 18px;
+}
+
+.hero-btn {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: space-evenly;
+}
+
+.get-started {
+    font-size: 18px;
+    background-color: var(--primary-color);
+    border: none;
+    padding: 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #fff
+}
+
+.learn-more {
+    background: none;
+    border: none;
+    font-size: 18px;
+    padding: 15px;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.hero-image {
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center; */
+    padding: 30px;
+}
+
+.img-container {
+    width: 85%;
+    text-align: center;
+    padding: 19px;
+    background: rgb(252, 249, 249);
+    border-radius: 15px;
+    margin:auto;
+    border: #e0dada 1px solid;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    border: lightgrey 1px solid;
+    border-radius: 6px; 
+    box-shadow: 7px 17px 45px -20px #939393;
+    display: block;
 }
