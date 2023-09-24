@@ -102,6 +102,10 @@ nav {
     font-weight: bold;
 }
 
+.learn-more svg {
+    vertical-align: middle;
+}
+
 .hero-image {
     /* display: flex; */
     /* justify-content: center;
@@ -126,4 +130,36 @@ nav {
     border-radius: 6px; 
     box-shadow: 7px 17px 45px -20px #939393;
     display: block;
+}
+
+/* Logos */
+.logo-container {
+    display: flex;
+    padding: 100px 50px 80px;
+    justify-content: space-evenly;
+}
+
+.offer-text {
+    text-align: center;
+    margin: 0 0 250px;
+    padding: 0 490px;
+}
+
+.offer-text svg {
+    padding: 0;
+    vertical-align: middle;
+}
+
+.offer-text p {
+    border: 0.5px solid lightgrey;
+    border-radius: 20px;
+    padding: 8px;
+    font-weight: bold;
+    color: rgb(99, 91, 91);
+    font-size: 15px;
+}
+
+.offer-text a {
+    text-decoration: none;
+    color: var(--primary-color);
 }
